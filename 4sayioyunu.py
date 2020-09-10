@@ -137,22 +137,22 @@ a=1
 b=2
 while a==1:
     try:
-        x1 = int(input("1. Oyuncu sayı girsin"))
+        x2 = int(input("1. Oyuncu sayı girsin"))
     except ValueError:
         print("This is not a number.")
 
-    if(x1<10000 and x1>999):
+    if(x2<10000 and x2>999):
         a=0
     else:
         print("Tekrar giriniz.")
 
 while b==2:
     try:
-        x2 = int(input("2. Oyuncu sayı girsin"))
+        x1 = int(input("2. Oyuncu sayı girsin"))
     except ValueError:
         print("This is not a number.")
 
-    if (x2 < 10000 and x2 > 999):
+    if (x1 < 10000 and x1 > 999):
         b = 0
     else:
         print("Tekrar giriniz.")
